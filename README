@@ -29,4 +29,4 @@ Sort by Value :
 -----------------
 // Just pass SelectOptionSorter.FieldToSort as "SelectOptionSorter.FieldToSort.Value" 
 // instead of "SelectOptionSorter.FieldToSort.Label"
-SelectOptionSorter.doSort(opts, SelectOptionSorter.FieldToSort.Label);
+SelectOptionSorter.doSort(opts, SelectOptionSorter.FieldToSort.Value);

@@ -16,8 +16,14 @@ Selectoption[] opts = new Selectoption[] {
 SelectOptionSorter.doSort(opts, SelectOptionSorter.FieldToSort.Label);
 // This will print the sorted list
 System.debug (' Sorted Options : ' + opts);
+
+
+//
 // Following will be output on console
+//
+
 |DEBUG| Sorted Options : (System.SelectOption[value="l1", label="v1", disabled="false"], System.SelectOption[value="l5", label="v5", disabled="false"], System.SelectOption[value="l8", label="v8", disabled="false"])
+
 
 Sort by Value :
 -----------------
